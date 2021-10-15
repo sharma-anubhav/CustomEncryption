@@ -27,10 +27,16 @@ Whats brilliant is that this requires just 2 libraries
 -  Spacy
 
 ## Project Working
+Step 1 of encryption involves processing the input word by word and using the length of that word as the key for implementing a shift-cipher. It has the benefit that same alphabets wont have the same cipher text and will be harder to break.
+<br> In the next step we use the 128bit predefined key, which can be randomly generated and xor it with every 128bits of the Encryption 1 to get the final result. <br>. The Decryption processes are the reverse of these operations,
+![enter image description here](https://github.com/sharma-anubhav/CustomEncryption/blob/master/data/1.png?raw=true)
 
-The flask project can be downloaded and run on a local host.
-Also .exe and .dmg files for the application are provided so that the application directly runs without the need for installing any dependancies.
-
+![enter image description here](https://github.com/sharma-anubhav/CustomEncryption/blob/master/data/2.png?raw=true)
 
 ## Project Sample
-![enter image description here](https://github.com/sharma-anubhav/blog/blob/master/img/CV_AI.jpg?raw=true)
+### INPUT
+![enter image description here](https://github.com/sharma-anubhav/CustomEncryption/blob/master/data/3.png?raw=true)
+
+### OUTPUT
+
+![enter image description here](https://github.com/sharma-anubhav/CustomEncryption/blob/master/data/4.png?raw=true)
