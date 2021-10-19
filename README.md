@@ -8,6 +8,8 @@ Here we code a custom encryption method for implementation of a custom cryptogra
 
 # Uniqueness
 
+The entire encryption is coded from scratch and uses UNICODE values to do so. The idea which was thought and implemented is as follows.
+<br> You get your own randomly generated key which you can copy and give to the other person which will be used for decryption as well. <br>
 The basic idea behind our code is to define a key character for every character in the string based on its length and combining it with a 128-bit string of characters.<br>
 Let’s dive a bit deeper into the working of the code with the help of an example illustrated through flowcharts.<br>
 e.g. TEXT: “cyber”  <br>
